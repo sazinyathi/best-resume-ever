@@ -1,6 +1,8 @@
 <template>
   <div class="resume" id="resume2">
     <div class="left-column">
+         <div class="heading" id="myselfpic">
+    </div>
       <div>
         <div class="headline">
           <span> {{ person.name.first }} {{ person.name.middle }} </span>
@@ -97,7 +99,7 @@
 
     <div class="right-column">
       <div class="experience-section section">
-        <div class="icon">
+         <div class="icon">
           <i class="material-icons small-icon">work</i>
           <span class="section-headline">{{ lang.experience }}</span>
         </div>

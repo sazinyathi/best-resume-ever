@@ -1,64 +1,83 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  first: Sazi
+  middle: Sipho
+  last: Nyathi
+  
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1978
+  location: Estcourt
+  month: June
+  day : 22
+
+   
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: LexisNexis
+  position: Software Developer 
+  timeperiod: January 2016 - Current.
+  description: Maintain and add new features to existing .Net Web applications.
+  website: https://www.lexisnexis.co.za
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: LexisNexis 
+  position: Support Intern
+  timeperiod: March 2013 - December 2015
+  description: Quality Assurance and Support Internal Web Applications.
+  website : https://www.lexisnexis.co.za
+  
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Telkom SA 
+  position: Technician
+  timeperiod: January 1998 - December 2011
+  description: Maintanance And Installations of Telephone Lines.
+  website : http://www.telkom.co.za/
+  
+
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: C# Microsoft Certificate
+  timeperiod: November 2019
+  description: Programming with C#
+  website: https://www.microsoft.com/en-us/learning/certification-overview.aspx/
+  name : Microsoft
 
-- degree: Bachelor of Science
+- degree: Higher Certificate in Information Systems (Engineering)
+  timeperiod: March 2012 - December 2013
+  description: Processing & Logic Concepts, Programme Design, Software Engineering, Basic & Advanced C# programming
+  website: https://www.pearsoninstitute.ac.za/
+  name : Cti Educational Group
+
+- degree: National N Diploma  (Light Current) Engineering
   timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+  description: Maths, Industrial Electronics,  Electrotechnics & Digital Electronics 
+  website: https://www.coastalkzn.co.za/
+  name : Durban Technical College
+
+- degree: National Senior Certificate
+  timeperiod: December 1996
+  description: Zulu, English, Afrikaans, Biology, Mathematics & Phyiscal Science.
+  website: http://pathfinda.com/en/imbabazane-rural/edashi/shops-services/emtshezi-high-school/
+  name : Emtshezi High School
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
+- name: C#
+  level: 70
+- name: SQL
+  level: 65
 - name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
+  level: 70
 - name: Angular 2
   level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
+- name: MVC
+  level: 75
+- name: ASP .Net Core
   level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Rest Services
+  level: 70
+
 
 projects:
 - name: best-resume-ever
@@ -81,12 +100,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
+  email: sazinyathi3@gmail.com
+  phone: 0791933999
+  street: 28 Long Island Avenue
+  city: Durban
   website: johndoe.com
-  github: johnyD
+  github: sazinyathi
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
